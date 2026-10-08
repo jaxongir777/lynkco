@@ -5,6 +5,8 @@ import Aion from './companents/aion/aion'
 import Byd from './companents/byd/byd'
 import Deepal from './companents/deepal/deepal'
 import Footer from './companents/footer/footer'
+import Zeeker from './companents/zeeker/zeeker'
+import  Li  from './companents/li/li'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
     <Aion/>
     <Byd/>
     <Deepal/>
+    <Zeeker/>
+    <Li/>
     <Footer/>
     </>
   )

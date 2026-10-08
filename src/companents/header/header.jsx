@@ -49,6 +49,26 @@ const Header = () => {
                 </a>
               </li>
 
+              <li className="header-item">
+                <a
+                  className="header-link"
+                  href="#zeekr"
+                  onClick={() => setIsOpen(false)}
+                >
+                  ZEEKR
+                </a>
+              </li>
+
+              <li className="header-item">
+                <a
+                  className="header-link"
+                  href="#li"
+                  onClick={() => setIsOpen(false)}
+                >
+                  LI AUTO
+                </a>
+              </li>
+
             </ul>
           </nav>
 
