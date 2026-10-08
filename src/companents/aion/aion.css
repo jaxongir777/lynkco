@@ -1,0 +1,247 @@
+.aion {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 120px 0;
+}
+
+.aion .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.aion-container {
+  width: 100%;
+}
+
+/* HEADING */
+
+.aion-heading {
+  max-width: 750px;
+  margin-bottom: 70px;
+}
+
+.aion-subtitle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.aion-heading h2 {
+  font-size: clamp(50px, 7vw, 90px);
+  line-height: 0.95;
+  font-weight: 800;
+  letter-spacing: -4px;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+.aion-heading h2 span {
+  display: block;
+  color: #999;
+}
+
+.aion-description {
+  max-width: 650px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* GRID */
+
+.aion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+
+.aion-card {
+  background: #ffffff;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.aion-card:hover {
+  transform: translateY(-8px);
+}
+
+/* IMAGE */
+
+.aion-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+
+.aion-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.5s;
+}
+
+.aion-card:hover .aion-image img {
+  transform: scale(1.05);
+}
+
+.aion-number {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  color: #111;
+
+  border-radius: 50%;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* CONTENT */
+
+.aion-card-content {
+  padding: 30px;
+}
+
+.aion-type {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.aion-card h3 {
+  font-size: 30px;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.aion-card-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #777;
+  max-width: 450px;
+  margin-bottom: 25px;
+}
+
+.aion-more {
+  color: #111;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.aion-more:hover {
+  color: #777;
+}
+
+/* BOTTOM INFO */
+
+.aion-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-top: 70px;
+
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.aion-info div {
+  padding: 35px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  border-right: 1px solid #ddd;
+}
+
+.aion-info div:last-child {
+  border-right: none;
+}
+
+.aion-info strong {
+  font-size: 28px;
+  color: #111;
+}
+
+.aion-info span {
+  font-size: 13px;
+  color: #888;
+}
+
+/* TABLET */
+
+@media (max-width: 800px) {
+
+  .aion {
+    padding: 80px 0;
+  }
+
+  .aion-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aion-info {
+    grid-template-columns: 1fr;
+  }
+
+  .aion-info div {
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .aion-info div:last-child {
+    border-bottom: none;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+  .aion .container {
+    padding: 0 20px;
+  }
+
+  .aion-heading h2 {
+    font-size: 52px;
+    letter-spacing: -2px;
+  }
+
+  .aion-description {
+    font-size: 15px;
+  }
+
+  .aion-image {
+    height: 260px;
+  }
+
+  .aion-card-content {
+    padding: 22px;
+  }
+
+  .aion-card h3 {
+    font-size: 25px;
+  }
+}
