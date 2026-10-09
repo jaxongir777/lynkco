@@ -59,17 +59,15 @@ const Footer = () => {
 
             <h3>MODELLAR</h3>
 
-            <a href="#aion">
-              AION
-            </a>
+            <a href="#aion">AION</a>
 
-            <a href="#byd">
-              BYD
-            </a>
+            <a href="#byd">BYD</a>
 
-            <a href="#deepal">
-              DEEPAL
-            </a>
+            <a href="#deepal">DEEPAL</a>
+
+            <a href="#zeekr">ZEEKR</a>
+
+            <a href="#li-auto">LI AUTO</a>
 
           </div>
 
@@ -87,9 +85,6 @@ const Footer = () => {
               info@lynkco.uz
             </a>
 
-            <p>
-              Toshkent, O‘zbekiston
-            </p>
 
           </div>
 
